@@ -1,7 +1,7 @@
 import CacheDB from "@chenyfan/cache-db";
 import { ConfigType } from "../../types/configType";
+import FetchEngine from "../engine/FetchEngine";
 import cons from "../utils/cons";
-import FetchEngine from "../utils/engine";
 import rebuild from "../utils/rebuild";
 import router_cgi from "./cgi";
 

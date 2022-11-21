@@ -2,6 +2,7 @@ import CacheDB from "@chenyfan/cache-db";
 import pkgjson from "../package.json";
 import clientworkerhandle from "./handle/main";
 import cons from "./utils/cons";
+import "./utils/promiseAnyPolyfill";
 
 // For compatibility
 

@@ -19,5 +19,3 @@ import { configSchema } from "./types/configType";
     JSON.stringify(configSchema, null, 2)
   );
 })();
-
-export {};

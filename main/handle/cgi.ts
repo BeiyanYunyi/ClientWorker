@@ -1,8 +1,8 @@
-import yaml from "js-yaml";
 import CacheDB from "@chenyfan/cache-db";
-import FetchEngine from "../utils/engine";
+import yaml from "js-yaml";
 import pkgjson from "../../package.json";
 import { ConfigType } from "../../types/configType";
+import FetchEngine from "../engine/FetchEngine";
 
 const router_cgi = async (request: Request) => {
   const db = new CacheDB();
